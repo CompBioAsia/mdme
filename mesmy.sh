@@ -129,7 +129,7 @@ EOF
 cat > step9.in <<EOF
 MD explicit solvent heavy atom no rest shake dt 0.002
 &cntrl
-  imin = 0, nstlim = 100000, dt=0.002,
+  imin = 0, nstlim = 500000, dt=0.002,
   ntx = 5, irest = 1,
   ntwx = 5000, ioutfm = 1, ntpr = 10000, ntwr = 10000,
   iwrap = 1, nscm = 1000,
