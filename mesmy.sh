@@ -7,7 +7,7 @@ prmtop_file="abl_ligand.prmtop"
 
 inpcrd_file="abl_ligand.inpcrd"
 
-solute=264 #number of residues in solute
+solute=265 #number of residues in solute
 T="310.0"
 
 #### Stop editing ####
