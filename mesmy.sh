@@ -125,7 +125,7 @@ MD explicit solvent heavy atom minimal BB rest shake dt 0.001
 &end
 EOF
 
-# NTP MD with shake and no restraints, dt=0.002, 200 ps
+# NTP MD with shake and no restraints, dt=0.002, 1 ns 
 cat > step9.in <<EOF
 MD explicit solvent heavy atom no rest shake dt 0.002
 &cntrl
